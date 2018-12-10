@@ -1,0 +1,20 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node ./rest/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./rest/server.js"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "mongodb": "^3.1.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
